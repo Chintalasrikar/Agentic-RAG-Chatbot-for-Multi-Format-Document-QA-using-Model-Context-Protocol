@@ -69,6 +69,7 @@ An agent-based Retrieval-Augmented Generation (RAG) chatbot that answers user qu
 
 ```bash
 git clone https://github.com/Chintalasrikar/Agentic-RAG-Chatbot-for-Multi-Format-Document-QA-using-Model-Context-Protocol.git
+
 cd Agentic-RAG-Chatbot-for-Multi-Format-Document-QA-using-Model-Context-Protocol
 ```
 
@@ -78,7 +79,17 @@ cd Agentic-RAG-Chatbot-for-Multi-Format-Document-QA-using-Model-Context-Protocol
 pip install -r requirements.txt\
 ```
 
-### 3. Run the App
+### 3. Set Up Environment Variables
+
+- Create a **.env** file in the project root.
+
+- Add your **Groq API key** (obtain from console.groq.com)
+
+```bash
+GROQ_API_KEY=your-groq-api-key
+```
+
+### 4. Run the App
 
 ```bash
 streamlit run app.py
