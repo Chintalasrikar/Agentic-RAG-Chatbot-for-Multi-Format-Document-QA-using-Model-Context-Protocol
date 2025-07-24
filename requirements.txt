@@ -5,7 +5,5 @@ python-docx
 python-pptx
 PyMuPDF
 faiss-cpu
-transformers
-numpy
 langchain_groq
 langchain
